@@ -1,0 +1,17 @@
+img {
+	margin: auto;
+	display: block;
+}
+
+.jumbotron{
+	background-image: url("https://monkeytrade.files.wordpress.com/2016/06/cropped-cropped-autumn-leaves-falling-background-wallpaper-41.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.jumbotron > .container >h1,p{
+	color: white;
+	text-shadow: 2px 2px #ff0000;
+}
+
