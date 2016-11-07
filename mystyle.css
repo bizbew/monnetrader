@@ -1,6 +1,7 @@
 img {
 	margin: auto;
 	display: block;
+
 }
 
 .jumbotron{
@@ -10,8 +11,35 @@ img {
 
 }
 
-.jumbotron > .container >h1,p{
+.jumbotron .container {
 	color: white;
 	text-shadow: 2px 2px #ff0000;
 }
 
+.context{
+	top:40px;
+	position: relative;
+	padding: 10px;
+	margin: 10px;
+}
+
+#first{
+	margin-top: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 1px solid black;
+
+}
+
+#later{
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: 1px solid black;
+
+}
+
+.panel-body{
+	border:1px solid black;
+}
